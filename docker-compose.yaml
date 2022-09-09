@@ -1,0 +1,8 @@
+services:
+  frontend_dummy_project:
+    build: ./frontend-dummy-project
+    container_name: frontend-dummy-project_c
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
